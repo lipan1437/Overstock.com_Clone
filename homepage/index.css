@@ -1,0 +1,42 @@
+#main{
+    display:grid ;
+    grid-template-columns: repeat(6,200px);
+    gap:20px;
+   
+}
+h1{
+    text-align: center;
+    font-size:40px;
+}
+#main>div{
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+#main>div>img{
+    width:100%;
+    cursor: pointer;
+}
+#freshFind{
+    display:grid ;
+    grid-template-columns: repeat(6,200px);
+    gap:20px;   
+}
+#freshFind>div>img{
+    width:100%;
+    cursor: pointer;
+}
+#freshFind>div{
+    text-align: center; 
+}
+#freshFind>div>p{
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    opacity: 0.8;
+}
+.banner{
+    cursor: pointer;
+    text-align: center;
+}
+.banner>img{
+    width:97%;
+}

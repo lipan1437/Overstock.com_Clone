@@ -1,4 +1,11 @@
+
+*{
+    margin:0%;
+    padding:0%;
+}
+
 #main{
+    margin-top: 50px;
     display:grid ;
     grid-template-columns: repeat(6,200px);
     gap:20px;
@@ -7,6 +14,7 @@
 h1{
     text-align: center;
     font-size:40px;
+    margin-top: 50px;
 }
 #main>div{
     text-align: center;
@@ -17,6 +25,7 @@ h1{
     cursor: pointer;
 }
 #freshFind{
+    margin-top: 50px;
     display:grid ;
     grid-template-columns: repeat(6,200px);
     gap:20px;   
@@ -34,9 +43,39 @@ h1{
     opacity: 0.8;
 }
 .banner{
+    margin-top: 50px;
     cursor: pointer;
     text-align: center;
 }
 .banner>img{
     width:97%;
+}
+#overStock{
+    margin-top: 50px;;
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    justify-content:space-around ;
+}
+#overStock>div{
+ text-align: center;
+ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+ background-color: rgb(251, 252, 252);
+ cursor: pointer;
+
+}
+#overStock>div>img{
+    width:100%;
+    text-align: center;
+}
+#overStock>div>p{
+    width:150px;
+    margin: auto;
+    font-size: 18px;
+    color: #242323;
+}
+#overStock>div>h4 {
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    opacity: 0.9;
+   
 }

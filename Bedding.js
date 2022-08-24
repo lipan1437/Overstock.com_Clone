@@ -136,4 +136,4 @@ let displayData = (kictchenArr) => {
     container.append(div);
   });
 };
-displayData(kictchenArr);
+// displayData(kictchenArr);

@@ -14,6 +14,7 @@ h1{
 }
 #main>div>img{
     width:100%;
+    cursor: pointer;
 }
 #freshFind{
     display:grid ;
@@ -22,6 +23,7 @@ h1{
 }
 #freshFind>div>img{
     width:100%;
+    cursor: pointer;
 }
 #freshFind>div{
     text-align: center; 
@@ -30,4 +32,11 @@ h1{
     font-size: 18px;
     font-family:Arial, Helvetica, sans-serif;
     opacity: 0.8;
+}
+.banner{
+    cursor: pointer;
+    text-align: center;
+}
+.banner>img{
+    width:97%;
 }

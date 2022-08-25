@@ -1,0 +1,23 @@
+#container {
+  display: flex;
+  margin: auto;
+  width: 50%;
+}
+#signup-box {
+  width: 50%;
+}
+#signup-box input {
+  padding: 5px 10px;
+  width: 55%;
+}
+#creat {
+  width: 60%;
+  padding: 5px 10px;
+}
+#continue {
+  width: 60%;
+  padding: 5px 10px;
+}
+#Check_box {
+  width: 50%;
+}

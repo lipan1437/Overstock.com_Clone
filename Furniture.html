@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture</title>
+    <style>
+
+body{
+ font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+#Furniture{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 20px;
+}
+
+#sidebar{
+    width: 100%;
+}
+h1{
+    font-size: 30px;
+    line-height: 34px;
+    margin-left: 18px;
+    font-weight: 700;
+    color: #2f3337
+}
+#sidebar h2{
+    margin-left: 18px;
+    margin-bottom: 25px;
+    color: #2f3337
+}
+#sidebar li{
+ font-size: 18px;
+ list-style: none;
+ line-height: 19px;
+ margin-bottom: 10px;
+ margin-left: -20px;
+ padding: 5px;
+ color: #2f3337;
+ text-align: -webkit-match-parent;
+ font-family: 'Times New Roman', Times, sans-serif;
+}
+#sidebar li:last-child{
+    color: #b90e0e;
+    font-weight: 800;
+}
+#sidebar li:last-child:hover{
+    cursor: pointer;
+    border-left: 2px solid #b90e0e;
+   background-color:  rgba(246, 250, 252, 0.993);
+}
+#sidebar li:hover{
+    cursor: pointer;
+    border-left: 2px solid #001aff;
+   background-color:  rgba(246, 250, 252, 0.993);
+}
+#imgbox1{
+    margin: auto;
+    margin-left: 40px;
+    margin-right: -55px;
+}
+#imgbox1 img{
+    width: 570px;
+    height: 705.3px; 
+
+}
+#imgbox1:hover{
+    cursor: pointer;
+}
+#imgbox2{
+    margin-left: 50px;
+
+    }
+    #imgbox2:hover{
+        cursor: pointer;
+    }
+#imgbox2 div:nth-child(1){
+    background-color: #aad8ee;
+    width: 86.8%;
+    margin-bottom: 12px;    
+
+}
+#imgbox2 div:nth-child(2){
+    background-color:#e2e1de;
+    width: 86.8%;
+    padding-bottom: 5px;
+
+}
+#imgbox2 p{
+text-align: center;
+font-size: 24px;
+margin-bottom: -10px;
+}
+#imgbox2 h2{
+text-align: center;
+font-size: 35px;
+font-weight: bold;
+margin-bottom: -10px;
+}
+#imgbox2 img:nth-child(1){
+    height: 210px;
+}
+#imgbox2 img:nth-child(2){
+    height: 197px;
+
+}
+
+.child1 div{
+    padding: top 0.2em ;
+    margin-top: -20px;
+    color:#444444;
+}
+.child1 div p{
+    padding-top: 22px;
+    color:#444444;
+}
+.child2 div h2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color:#444444;
+}
+#container{
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(4,23%);
+    grid-template-rows: repeat(3,auto);
+    /* column-gap: 10px; */
+    
+}
+#container>div>img{
+    width:100%;
+}
+
+    </style>
+
+</head>
+<body>
+    
+    <h1>Furniture</h1>
+    <div id="Furniture">
+    <div id="sidebar">
+        <h2>Featured Categories</h2>
+        <ul>
+        <li>Living Room Furniture</li>
+        <li>Living Room Furniture</li>
+        <li>Bedroom Furniture</li>
+        <li>Patio Furniture</li>
+        <li>Kitchen Furniture</li>
+        <li>Entryway Furniture</li>
+        <li>Home Office Furniture</li>
+        <li>Small Space Furniture</li>
+        <li>Bathroom Furniture</li>
+        <li>Mattresses</li>
+        <li>Recreation Room</li>
+        <li>Kids & Toddler Furniture</li>
+        <li>Home Gym</li>
+        <li>Shop All Furniture on Sale</li>
+        </ul>
+    </div>
+    <div id="imgbox1">
+        
+        <img src="https://ak1.ostkcdn.com/img/mxc/08222022_Desktop_Furniture_WalkerEdison.jpg?imwidth=680" alt="error">
+    </div>
+    <div id="imgbox2">
+       <div class="child1">
+        <div>
+            <p>Need Inspiration?</p>
+            <h2 style="font-size:25px;">Virtual Showroom</h2></div>
+        <img src="	https://ak1.ostkcdn.com/img/mxc/2022-04-12-temporary-virtual-showcase.png" alt="error">
+       </div>
+         <div class="child2">
+            <img src="https://ak1.ostkcdn.com/img/mxc/08022022_MM_01_furniture_MegaMarkdowns.png?imwidth=320" alt="error">
+         <div>
+            <p>up to 40% off*</p>
+            <h2 style="font-size:20px;">Massive Markdowns</h2>
+         </div>
+         </div>
+    </div>
+</div>
+<div>
+    <h2 style="text-align: center; margin-top: 50px;">Popular Furniture Categories</h2>
+     <div id="container">
+        <div>
+            <img src="https://ak1.ostkcdn.com/img/mxc/07062022_SUMMER_FURNI_PopCat_Patio_Furniture.jpg">
+            <p>Patio </p>
+        </div>
+        <div>
+            <img src="https://ak1.ostkcdn.com/img/mxc/07062022_SUMMER_FURNI_PopCat_Living_Room_Furniture.jpg">
+            <p>Living Room Furniture</p>
+        </div>
+        <div>
+            <img src="https://ak1.ostkcdn.com/img/mxc/07062022_SUMMER_FURNI_PopCat_Dining_Room_Furniture.jpg">
+            <p>Dinning Room Furniture</p>
+        </div>
+        <div>
+            <img src="https://ak1.ostkcdn.com/img/mxc/07062022_SUMMER_FURNI_PopCat_Bedroom_Furniture.jpg">
+            <p>Bedroom Furniture</p>
+        </div>
+        <div>
+            <img src="https://ak1.ostkcdn.com/img/mxc/07062022_SUMMER_FURNI_PopCat_Mattresses.jpg">
+            <p>Mattresses</p>
+        </div>
+        <div>
+            <img src="https://ak1.ostkcdn.com/img/mxc/07062022_SUMMER_FURNI_PopCat_Home_Office_Furniture.jpg">
+            <p>Home Office Furniture</p>
+        </div>
+        <div>
+            <img src="https://ak1.ostkcdn.com/img/mxc/07062022_SUMMER_FURNI_PopCat_Small_Space_Furniture.jpg">
+            <p>Small Space Furniture</p>
+        </div>
+        <div>
+            <img src="https://ak1.ostkcdn.com/img/mxc/07062022_SUMMER_FURNI_PopCat_Kitchen_Furniture.jpg">
+            <p>Kitchen Furniture</p>
+        </div>
+        <div>
+            <img src="https://ak1.ostkcdn.com/img/mxc/07062022_SUMMER_FURNI_PopCat_Entryway_Furniture.jpg">
+            <p>Entryway Furniture</p>
+        </div>
+        <div>
+            <img src="https://ak1.ostkcdn.com/img/mxc/07062022_SUMMER_FURNI_PopCat_Bathroom_Furniture.jpg">
+            <p>Bathroom Furniture</p>
+        </div>
+        <div>
+            <img src="https://ak1.ostkcdn.com/img/mxc/09062021_FALL2021_Furni_PopCat_11.jpg">
+            <p>Recreation Room Furniture</p>
+        </div>
+        <div>
+            <img src="https://ak1.ostkcdn.com/img/mxc/07062022_SUMMER_FURNI_PopCat_Kids_Room.jpg">
+            <p>Kids & Toddle Room Furniture</p>
+        </div>
+     </div>
+</div>
+
+</body>
+</html>

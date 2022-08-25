@@ -147,3 +147,88 @@ let append3 = (data) => {
   });
 };
 append3(overStock)
+
+let style  = [
+      {
+        url:"https://ak1.ostkcdn.com/img/mxc/030822-SBS-Traditional.jpg?imwidth=1920",
+        title:"Traditional",
+        desciption:"Cozy designs, clean and classic, give the style it's signature appeal.",
+      }  ,
+      {
+        url:"https://ak1.ostkcdn.com/img/mxc/030822-SBS-MidCenMod.jpg?imwidth=1920",
+        title:"Mid-Century Modern",
+        desciption:"Retro meets modren chic in these clean lines and vibrant tones.",
+      } ,
+      {
+        url:"https://ak1.ostkcdn.com/img/mxc/030822-SBS-Farmhouse.jpg?imwidth=1920",
+        title:"Farmhouse",
+        desciption:"Country comforts abound in this fresh take on rustiuc home decor.",
+      } 
+  ]
+  let append4 = (data) => {
+    let style = document.getElementById("style");
+    data.forEach((el) => {
+      let div = document.createElement("div");
+      let img = document.createElement("img");
+      let h2 = document.createElement('h2')
+      h2.innerText = el.title
+      let p = document.createElement('p')
+      p.innerText = el.desciption
+      img.src = el.url;
+      div.append(img,h2,p);
+      style.append(div);
+    });
+  };
+  append4(style)
+
+
+  let treadingData = [
+       {
+        title:'Outdoor Rugs'
+       },
+       {
+        title:'Wallpaper'
+       },
+       {
+        title:'Patio Furniture'
+       },
+       {
+        title:'Mattresses'
+       },
+       {
+        title:'Tv Stands'
+       },
+       {
+        title:'Outdoor Lighting'
+       },
+       {
+        title:'Outdoor Dining Sets'
+       },
+       {
+        title:'Mirrors'
+       },
+       {
+        title:'Portable Air Conditioners'
+       },
+       {
+        title:'Bathroom Vanities'
+       },
+       {
+        title:'Computers Desks'
+       },
+       {
+        title:'Area Rugs'
+       },
+  ]
+
+  let append5 = (data) => {
+    let treding = document.getElementById("treding");
+    data.forEach((el) => {
+      let div = document.createElement("div");
+      let h2 = document.createElement('h2')
+      h2.innerText = el.title
+      div.append(h2);
+      treding.append(div);
+    });
+  };
+  append5(treadingData)

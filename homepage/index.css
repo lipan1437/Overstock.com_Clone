@@ -13,8 +13,9 @@
 }
 h1{
     text-align: center;
-    font-size:40px;
+    font-size:38px;
     margin-top: 50px;
+    opacity: 0.9;
 }
 #main>div{
     text-align: center;
@@ -78,4 +79,60 @@ h1{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     opacity: 0.9;
    
+}
+#style{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+}
+#style>div{
+    text-align:start;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-left: 20px;;
+}
+#style>div>img{
+    width:98% ; 
+}
+#style>div>p{
+    margin-left: 20px;
+    width:400px;
+    font-size: 18px;
+}
+#style>div>h2{
+    margin-left: 20px;
+}
+
+button{
+     margin-top: 50px;
+     padding:10px;
+     margin-left: 42%;
+     width:200px;;
+     font-size: 20px;
+     color:white;
+     background-color: black;
+     border-radius: 5px;
+     cursor: pointer;
+     opacity: 0.9;
+}
+ #treding{
+    margin-top:50px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows:auto;
+  gap:20px;
+}
+#treding>div{
+  text-align: center;
+  box-shadow: rgba(99, 99, 99, 0.332) 0px 2px 8px 0px;
+  padding:15px;
+  opacity: 0.8;
+  background-color: #989f9f37;
+  cursor: pointer;
+}
+#treding>div>p{
+    width:300px;
+}
+hr{
+    margin-top: 50px;;
 }

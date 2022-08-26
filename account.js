@@ -1,3 +1,4 @@
+
 let signUpLS = JSON.parse(localStorage.getItem("signupData")) || [];
 
 document.querySelector("#creat").addEventListener("click", signupFunc);
@@ -48,3 +49,5 @@ function mySignIn(event) {
     }
   }
 }
+
+

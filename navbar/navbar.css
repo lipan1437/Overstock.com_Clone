@@ -1,0 +1,640 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar_up {
+    /* border: 1px solid red; */
+    background-color: #f9fafb;
+    align-items: center;
+    display: flex;
+    height: 30px;
+    margin: 0 auto;
+    max-width: 1680px;
+    padding: 0 20px;
+    position: relative;
+}
+
+#ship {
+    margin-left: 4px;
+}
+
+#ship>p {
+    color: #a9a6a6d3;
+}
+
+#india_logo {
+    /* border: 1px solid teal; */
+    border-radius: 100px;
+    width: auto;
+}
+
+#india_logo>img {
+    width: 90%;
+    height: 90%;
+    border-radius: 100%;
+}
+
+#india_name>p {
+    color: black;
+    font-weight: bold;
+}
+
+#navbar_mid {
+    border: 1px solid #b9b9b9;
+    padding: 1%;
+    margin: auto;
+}
+
+#over_logo {
+    /* border:1px solid red; */
+    width: 15%;
+    height: 36px;
+    /* margin-left: 8px; */
+}
+
+#over_logo>img {
+    /* border: 1px solid teal; */
+    width: 100%;
+    height: 100%;
+}
+
+#mid_div {
+    /* border: 1px solid red; */
+    height: 37px;
+    display: flex;
+}
+
+#search_in {
+    /* border: 1px solid red; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    margin-left: 20px;
+    box-sizing: border-box;
+}
+
+#search_input {
+    width: 95%;
+    border: 1px solid #dadcdf;
+    border-radius: 4px 0 0 4px;
+    background-color: #f9fafb;
+    padding: 0 10px;
+    font-size: 16px;
+    appearance: none;
+    line-height: 34px;
+}
+
+#but_div {
+    /* border: 1px solid red; */
+    background-color: red;
+    width: 5%;
+}
+
+#search_btn {
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    border: 1px solid transparent;
+    border-radius: 0px 3px 3px 0px;
+    cursor: pointer;
+}
+
+#search_btn>img {
+    margin-left: -8px;
+    margin-top: -3px;
+    width: 195%;
+    height: 120%;
+    /* background-color: red; */
+}
+
+
+/* right navbar */
+#right {
+    /* border: 1px solid red; */
+    /* width: 40%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-left: 50px;
+}
+
+#right>div:first-child {
+    /* border: 1px solid red; */
+    width: 10%;
+    padding: 7px 10px;
+    border-radius: 5px;
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+#right>div:first-child img {
+    width: 18px;
+}
+
+.rightSideIcons {
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.rightSideIcons>img {
+    width: 25px;
+}
+
+.rightSideIcons>a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+
+.profile:hover {
+    border-bottom: 5px solid red;
+    padding: 20px 15px 15px 15px;
+}
+
+/* .butt_check{
+    border: 1px solid red;
+    height: 100%;
+} */
+
+.butt_check button {
+    color: white;
+    width: 130%;
+    height: 130%;
+    padding: 5% 5%;
+    background-color: #2f3337;
+    border: 1px solid #2f3337;
+}
+
+#signin {
+    display: none;
+    padding: 20px 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    /* border: 1px solid red; */
+}
+
+#signin h2 {
+    margin: 0px;
+    color: black;
+    font-size: 14px;
+}
+
+#signin p {
+    /* margin: 0px 0px 10px 0px; */
+    color: black;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+#signin li {
+    margin-left: -10px;
+    list-style: none;
+    text-align: left;
+    line-height: 25px;
+    color: black;
+    font-size: 12px;
+}
+
+#signin ul {
+    margin-left: -20px;
+    color: black;
+}
+
+#signin li:hover {
+    color: black;
+    font-weight: bold;
+}
+
+#signin>ul>h2>a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-align: left;
+}
+
+.profile:hover #signin {
+    text-align: left;
+    display: block;
+    position: absolute;
+    background-color: white;
+    top: 75px;
+}
+
+#navbar_bottom {
+    border: 1px solid #b9b9b9;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#furniture:hover {
+    border-bottom: 2px solid black;
+}
+
+#furniture:hover #subMenu {
+    /* border: 1px solid red; */
+    display: block;
+    position: absolute;
+    background-color: white;
+    top: 123px;
+    left: 5px;
+}
+
+#furniture a {
+    text-decoration: none;
+    color: black;
+    /* border-bottom: 2px solid black; */
+}
+
+#furniture .categories h3 {
+    color: black;
+    /* border-bottom: 2px solid black; */
+}
+
+/* Furniture end */
+#rugs:hover {
+    border-bottom: 2px solid black;
+}
+
+#rugs:hover #subMenu {
+    /* border: 1px solid red; */
+    display: block;
+    position: absolute;
+    background-color: white;
+    top: 123px;
+    left: 120px;
+}
+
+#rugs a {
+    text-decoration: none;
+    color: black;
+}
+
+#rugs .categories h3 {
+    color: black;
+}
+
+/* rugs end here */
+#decor:hover {
+    border-bottom: 2px solid black;
+}
+
+#decor:hover #subMenu {
+    /* border: 1px solid red; */
+    display: block;
+    position: absolute;
+    background-color: white;
+    top: 123px;
+    left: 220px;
+}
+
+#decor a {
+    text-decoration: none;
+    color: black;
+}
+
+#decor .categories h3 {
+    color: black;
+}
+
+/* decore ends here */
+#bedding:hover {
+    border-bottom: 2px solid black;
+}
+
+#bedding:hover #subMenu {
+    /* border: 1px solid red; */
+    display: block;
+    position: absolute;
+    background-color: white;
+    top: 123px;
+    left: 320px;
+}
+
+#bedding a {
+    text-decoration: none;
+    color: black;
+}
+
+#bedding .categories h3 {
+    color: black;
+}
+
+/* bedding ends here */
+#home_improvement:hover {
+    border-bottom: 2px solid black;
+}
+
+#home_improvement:hover #subMenu {
+    /* border: 1px solid red; */
+    display: block;
+    position: absolute;
+    background-color: white;
+    top: 123px;
+    left: 440px;
+}
+
+#home_improvement a {
+    text-decoration: none;
+    color: black;
+}
+
+#home_improvement .categories h3 {
+    color: black;
+}
+
+/* Home Improvements ends here */
+#kitchen:hover {
+    border-bottom: 2px solid black;
+}
+
+#kitchen:hover #subMenu {
+    /* border: 1px solid red; */
+    display: block;
+    position: absolute;
+    background-color: white;
+    top: 123px;
+    left: 420px;
+}
+
+#kitchen a {
+    text-decoration: none;
+    color: black;
+}
+
+#kitchen .categories h3 {
+    color: black;
+}
+
+/* kitchen ends here */
+#outdoor:hover {
+    border-bottom: 2px solid black;
+}
+
+#outdoor:hover #subMenu {
+    /* border: 1px solid red; */
+    display: block;
+    position: absolute;
+    background-color: white;
+    top: 123px;
+    left: 420px;
+}
+
+#outdoor a {
+    text-decoration: none;
+    color: black;
+}
+
+#outdoor .categories h3 {
+    color: black;
+}
+
+/* outdoor ends here */
+#lighting:hover {
+    border-bottom: 2px solid black;
+}
+
+#lighting:hover #subMenu {
+    /* border: 1px solid red; */
+    display: block;
+    position: absolute;
+    background-color: white;
+    top: 123px;
+    left: 420px;
+}
+
+#lighting a {
+    text-decoration: none;
+    color: black;
+}
+
+#lighting .categories h3 {
+    color: black;
+}
+
+/* lighting ends here */
+#Kid_baby:hover {
+    border-bottom: 2px solid black;
+}
+
+#Kid_baby:hover #subMenu {
+    /* border: 1px solid red; */
+    display: block;
+    position: absolute;
+    background-color: white;
+    top: 123px;
+    left: 420px;
+}
+
+#Kid_baby a {
+    text-decoration: none;
+    color: black;
+}
+
+#Kid_baby .categories h3 {
+    color: black;
+}
+
+/* kid end here */
+#more:hover {
+    border-bottom: 2px solid black;
+}
+
+#more:hover #subMenu {
+    /* border: 1px solid red; */
+    display: block;
+    position: absolute;
+    background-color: white;
+    top: 123px;
+    left: 420px;
+}
+
+#more a {
+    text-decoration: none;
+    color: black;
+}
+
+#more .categories h3 {
+    color: black;
+}
+
+/* more ends here */
+#ideas:hover {
+    border-bottom: 2px solid black;
+}
+
+#ideas:hover #subMenu {
+    /* border: 1px solid red; */
+    display: block;
+    position: absolute;
+    background-color: white;
+    top: 123px;
+    left: 420px;
+}
+
+#ideas a {
+    text-decoration: none;
+    color: black;
+}
+
+#ideas .categories h3 {
+    color: black;
+}
+
+/* idea ends here */
+#sales {
+    color: red;
+}
+
+#sales:hover {
+    border-bottom: 2px solid red;
+}
+
+#sales:hover #subMenu {
+    /* border: 1px solid red; */
+    display: block;
+    position: absolute;
+    background-color: white;
+    top: 123px;
+    left: 420px;
+}
+
+#sales a {
+    text-decoration: none;
+    color: red;
+}
+
+#sales .categories h3 {
+    color: black;
+    cursor: pointer;
+}
+
+/* sales ends here */
+
+#subMenu {
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+#subMenu li {
+    list-style: none;
+    text-align: left;
+    line-height: 25px;
+    color: gray;
+}
+
+#subMenu ul {
+    display: flex;
+    padding: 0px 10px;
+}
+
+#subMenu ul>div {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 10px 20px;
+
+}
+
+.categories {
+    /* border: 1px solid red; */
+    text-align: left;
+    font-size: 12px;
+    color: gray;
+    font-weight: lighter;
+    display: flex;
+}
+
+.categories p,
+h3 {
+    cursor: pointer;
+    margin: 5px 0px;
+}
+
+.categories p:hover {
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.categories img {
+    width: 70%;
+    height: 120%;
+}
+
+#idea-main {
+    /* border: 1px solid teal; */
+    display: flex;
+    /* padding-left: -70px; */
+    margin-left: -30px;
+}
+
+#idea-main-1 {
+    /* border: 1px solid teal; */
+    display: flex;
+    /* padding-left: -70px; */
+    margin-left: -30px;
+}
+
+#idea-2 {
+    border: 1px solid #808080ac;
+    width: 200px;
+    height: 150px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#idea-2 img {
+    width: 100%;
+    height: 70%;
+    margin-bottom: -7px;
+}
+
+#idea-3 {
+    border: 1px solid #808080ac;
+    width: 200px;
+    height: 290px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: -20px;
+}
+
+#idea-3 img {
+    /* border: 1px solid #808080ac; */
+    width: 100%;
+    height: 70%;
+    margin-bottom: -7px;
+}
+
+#idea-4 {
+    /* border: 1px solid #808080ac; */
+    width: 100%;
+    height: 70px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#idea-4 img {
+    width: 120%;
+    height: 100%;
+    margin-left: -24%;
+}

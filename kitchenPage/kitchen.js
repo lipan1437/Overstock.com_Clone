@@ -1,3 +1,13 @@
+
+let navbar_id = document.getElementById("navbar");
+import navbar_imp from "../components/navbar.js";
+ navbar_id.innerHTML = navbar_imp();
+
+import { footer, end } from "../components/footer.js";
+
+  document.querySelector("#footer").innerHTML = footer();
+  document.querySelector("#end").innerHTML = end()
+
 let kictchenArr=[
     {
         Image:"https://ak1.ostkcdn.com/img/mxc/12202021_WINTER2022_KITCHEN_PopCat_1_SmallAppliances.jpg",

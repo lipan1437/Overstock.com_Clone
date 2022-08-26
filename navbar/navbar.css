@@ -43,6 +43,7 @@ body {
 #navbar_mid {
     border: 1px solid #b9b9b9;
     padding: 1%;
+    margin: auto;
 }
 
 #over_logo {

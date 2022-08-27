@@ -1,0 +1,233 @@
+body{
+ font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+#kitchen{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 20px;
+    /* border: 1px solid red; */
+}
+
+#sidebar{
+    /* border: 1px solid red; */
+    width: 60%;
+}
+#kihead{
+    font-size: 30px;
+    line-height: 34px;
+    margin-left: 18px;
+    margin-bottom: 25px;
+    font-weight: 700;
+    color: #2f3337
+}
+#sidebar h2{
+    margin-left: 18.5px;
+    margin-bottom: 25px;
+    color: #2f3337;
+    font-size: 22px;
+}
+#sidebar li{
+ font-size: 16px;
+ list-style: none;
+ line-height: 12px;
+ margin-bottom: 14px;
+ margin-left: -20px;
+ padding: 3px;
+ color: #2f3337;
+ text-align: -webkit-match-parent;
+ font-family: 'Times New Roman', Times, sans-serif;
+}
+#sidebar li:last-child{
+    color: #b90e0e;
+    font-weight: 800;
+}
+#sidebar li:last-child:hover{
+    cursor: pointer;
+    border-left: 2px solid #b90e0e;
+   background-color:  rgba(246, 250, 252, 0.993);
+}
+#sidebar li:hover{
+    cursor: pointer;
+    border-left: 2px solid #001aff;
+    background-color:  rgba(246, 250, 252, 0.993);
+}
+#imgbox1{
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-left: 40px;
+    margin-right: -55px;
+    margin-top: -15px;
+    height: 665px;
+}
+#imgbox1 img{
+    width: auto;
+    height: 100%; 
+   
+}
+#imgbox1:hover{
+    cursor: pointer;
+}
+#imgbox2{
+    display: grid;
+    /* border: 1px solid red; */
+    margin-left: 50px;
+    margin-top: -15px;
+    height: 660px;
+    gap: 10px;
+    margin-right: 16px;
+    }
+    #imgbox2:hover{
+        cursor: pointer;
+    }
+#imgbox2 div:nth-child(1){
+    background-color: #aad8ee;
+    /* width: 86.8%; */
+    /* margin-bottom: 12px;     */
+
+}
+#imgbox2 div:nth-child(2){
+    background-color:#e2e1de;
+
+}
+#imgbox2 p{
+text-align: center;
+font-size: 24px;
+margin-bottom: -10px;
+}
+#imgbox2 h2{
+text-align: center;
+font-size: 35px;
+font-weight: bold;
+margin-bottom: -10px;
+}
+
+.child1 div{
+    padding: top 0.2em ;
+    margin-top: -20px;
+}
+.child1 div p{
+    padding-top: 22px;
+}
+.child2 div h2{
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+#container{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    justify-items: center;
+}
+
+#container div{
+    background-color:#f6f7f8 ;
+    margin: 8px;
+    
+}
+#container div img{
+    width: 308px;
+}
+#container div p{
+    text-align: center;
+    font-size: 18px;
+}
+#container div:hover{
+    cursor: pointer;
+}
+.box h2{
+    color: #2f3337;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.box2{
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+}
+.box2 div{
+    margin-left: 18px;
+    margin-right: 18px;
+}
+.box2 div h3{
+    font-size: 24px;
+    color: #2f3337;
+}
+.box2 div p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #2f3337;
+    text-align: justify;
+}
+.box2 div button{
+    padding: 12px;
+    font-size: 16px;
+    background-color: #fff;
+    border-color: #c0c8cf;
+}
+.box2 div button:hover{
+    cursor: pointer;
+}
+.box2 div img:hover{
+    cursor: pointer;
+}
+.box3{
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+}
+.box3 div{
+    margin-left: 18px;
+    margin-right: 18px;
+}
+.box3 div h3{
+    font-size: 24px;
+    color: #2f3337;
+}
+.box3 div p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #2f3337;
+    text-align: justify;
+}
+.box3 div button{
+    padding: 12px;
+    font-size: 16px;
+    background-color: #fff;
+    border-color: #c0c8cf;
+}
+.box3 div button:hover{
+    cursor: pointer;
+}
+.box3 div img:hover{
+    cursor: pointer;
+}
+
+
+#container1{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    justify-content: center;
+    justify-items: center;
+}
+
+#container1 div img{
+    width: 196px;
+}
+#container1 div p{
+    text-align: center;
+    font-size: 18px;
+}
+#container1 div:hover{
+    cursor: pointer;
+}

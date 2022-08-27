@@ -63,5 +63,3 @@ function mySignIn(event) {
     }
   }
 }
-
-

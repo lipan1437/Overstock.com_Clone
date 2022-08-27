@@ -1,3 +1,13 @@
+let navbar_id = document.getElementById("navbar");
+import navbar_imp from "../components/navbar.js"
+  navbar_id.innerHTML = navbar_imp();
+
+  import { footer, end } from "./components/footer.js";
+
+  document.querySelector("#footer").innerHTML = footer();
+  document.querySelector("#end").innerHTML = end()
+  /*-----import ends here-------*/
+
 
 let signUpLS = JSON.parse(localStorage.getItem("signupData")) || [];
 
@@ -14,7 +24,7 @@ function signupFunc() {
   } else if (signupObj.Password.length < 5) {
     alert("Enter atlest 6 char strong password");
   } else if (signupObj.Password != signupObj.Check) {
-    alert("Enter the samne password in both");
+    alert("Enter the same password in both");
   }
   signUpLS.push(signupObj);
   localStorage.setItem("signupData", JSON.stringify(signUpLS));
@@ -33,9 +43,13 @@ function mySignIn(event) {
   if (checkSignin(data.userEmail, data.userPassword) == true) {
     localStorage.setItem("signinData", JSON.stringify(data));
     alert("sign in successful");
-    window.location.href = "#";
+    window.location.href = "./index.html";
+  } else if(data.userEmail="") {
+    alert("please enter email!");
+  }else if(data.userPassword=""){
+    alert("please enter password!")
   } else {
-    alert("worng email or password");
+    alert("worong email or password")
   }
 
   function checkSignin(email, password) {

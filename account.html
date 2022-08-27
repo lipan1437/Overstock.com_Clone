@@ -6,18 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Account</title>
     <link rel="stylesheet" href="account.css" />
+    <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="./footer.css">
   </head>
   <body>
+    <div id="navbar"></div>
     <div id="container">
       <div id="signup-box">
         <h2 class="heading-account">Create Account</h2>
 
         <p>Email Address*</p>
-        <input type="email" id="Uemail" placeholder="Email" />
+        <input type="text" id="Uemail" placeholder="Email" />
         <p>Create Password*</p>
-        <input type="text" id="Upassword" placeholder="Password" />
+        <input type="password" id="Upassword" placeholder="Password" />
         <p>Confirm Password*</p>
-        <input type="text" id="Uc_password" placeholder="Confirm password" />
+        <input type="password" id="Uc_password" placeholder="Confirm password" />
         <br />
         <div id="Check_box">
           <input type="checkbox" id="checkbox" />
@@ -48,7 +51,7 @@
       <div id="signin-box">
         <h2 class="heading-account">Sign In</h2>
         <p>Email Address*</p>
-        <input type="email" id="Iemail" placeholder="Email" />
+        <input type="text" id="Iemail" placeholder="Email" />
         <p>Password*</p>
         <input type="password" id="Ipassword" placeholder="Password" />
         <br />
@@ -56,6 +59,10 @@
         <p><a href="">Forgot your password</a></p>
       </div>
     </div>
+    <footer>
+      <div id="footer"></div>
+      <div id="end"></div>
+    </footer>
   </body>
 </html>
-<script src="account.js"></script>
+<script src="account.js" type="module"></script>

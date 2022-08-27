@@ -140,7 +140,7 @@ let navbar_imp =()=>{
         </div>
     </div>
     <div id="rugs">
-        <a href="#">Rugs</a>
+        <a href="./Bedding.html">Rugs</a>
         <div id="subMenu">
             <ul>
                 <div class="categories">
@@ -275,7 +275,7 @@ let navbar_imp =()=>{
                     <img src="https://ak1.ostkcdn.com/images/products/is/images/direct/e1091fd2788bdba18f11d5d08319b1bf2da83288/nuLOOM-Handmade-Moroccan-Leather-Filled-Ottoman-Pouf.jpg"
                         alt="">
                     <h2>extra 15% off</h2>
-                    <p>Select Home Decp\ore*</p>
+                    <p>Select Home Decore*</p>
                     <h3>More Ways To Shop</h3>
 
                     <p>Featured Sales</p>
@@ -347,7 +347,7 @@ let navbar_imp =()=>{
                     <img src="https://ak1.ostkcdn.com/images/products/is/images/direct/f81d493468106ebb53429860a4683c92efb99f32/LUCID-Comfort-Collection-10-inch-Luxury-Gel-Memory-Foam-Mattress.jpg?imwidth=320"
                         alt="">
                     <h2>extra 15% off</h2>
-                    <p>Select Home Decp\ore*</p>
+                    <p>Select Home Decpore*</p>
                     <h3>More Ways To Shop</h3>
 
                     <p>Featured Sales</p>
@@ -432,7 +432,7 @@ let navbar_imp =()=>{
     </div>
     <!-- hom improv ends here -->
     <div id="kitchen">
-        <a href="#">Kitchen</a>
+        <a href="../kitchen/kitchen.html">Kitchen</a>
         <div id="subMenu">
             <ul>
                 <div class="categories">

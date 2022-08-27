@@ -1,0 +1,84 @@
+#footer {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 50px 0px 0px 100px;
+    background-color: rgb(84, 86, 88);
+    height: 300px;
+}
+
+#footer>div {
+    /* border: 1px solid red; */
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#footer>div>h4 {
+    color: rgb(248, 245, 244);
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#footer>div>a {
+    color: rgb(248, 245, 244);
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+#end {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(47, 51, 55);
+    height: 100px;
+    color: rgb(248, 245, 244);
+    padding-top: 10px;
+    /* flex-direction: column; */
+}
+
+#endone {
+    margin: 20px 0px 0px 150px;
+}
+
+#endone>p {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#endtwo {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-right: -400px;
+}
+
+#endtwo>a {
+    margin-top: 30px;
+    text-decoration: none;
+    color: rgb(248, 245, 244);
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#ship_logo {
+    /* border: 1px solid red; */
+    height: 20px;
+    width: auto;
+    /* margin-top: 25px; */
+    /* margin-right: 100px; */
+}
+
+#foot_logo {
+    /* border: 1px solid red; */
+    width: 29px;
+    height: 20px;
+    margin-top: 25px;
+    margin-right: 230px;
+}

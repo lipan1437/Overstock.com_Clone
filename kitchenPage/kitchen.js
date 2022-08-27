@@ -1,9 +1,9 @@
 
 let navbar_id = document.getElementById("navbar");
-import navbar_imp from "../components/navbar.js";
+import navbar_imp from "./components/navbar.js";
  navbar_id.innerHTML = navbar_imp();
 
-import { footer, end } from "../components/footer.js";
+import { footer, end } from "./components/footer.js";
 
   document.querySelector("#footer").innerHTML = footer();
   document.querySelector("#end").innerHTML = end()
@@ -122,7 +122,7 @@ let displayData=(kictchenArr)=>{
         name.innerText=title;
         let div=document.createElement("div");
         div.addEventListener("click",()=>{
-            window.location.href="#";
+            window.location.href="./dinnerware.html";
         });
         div.append(imag,name);
         container.append(div);
@@ -141,7 +141,7 @@ let displayData2=(kictchenArr2)=>{
         name1.innerText=title;
         let div=document.createElement("div");
         div.addEventListener("click",()=>{
-            window.location.href="#";
+            window.location.href="./dinnerware.html";
         });
         div.append(img,name1);
         container1.append(div);

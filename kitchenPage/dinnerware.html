@@ -7,7 +7,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="./styles/dinnerware.css">
     <link rel="stylesheet" href="./styles/navbar.css">
-    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <!-- <link
+    rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" /> -->
     <script src="https://kit.fontawesome.com/2ecfe8ce03.js"crossorigin="anonymous"
   ></script>
 </head>
@@ -63,6 +66,15 @@
        </div>
      </div>
     </div>
+    <div class="sort">Sort by:
+      <select id="filter-product" onchange="filter_page(data)">
+        <!-- <option value="">Sorted By Price</option> -->
+        
+        <option id="sortlh" value="LH">Price Low-High</option>
+        <option id="sorthl" value="HL">Price High-Low</option>
+      </select>
+    </div>
+    
     <div id="main-container">
         <div id="leftsort">
           <div>
@@ -162,6 +174,148 @@
           <p>Select Lighting*</p>
         </div>
       </div>
+      <h2 id="head3">Related Search</h2>
+      <div class="btn">
+          <button><svg class="relatedSearchIcon" width="24" height="24" viewBox="0 0 24 24" stroke="#2F3337" fill="#2F3337"><title>Search</title><path d="M22 22l-6.344-6.344M10 18a8 8 0 100-16 8 8 0 000 16z" stroke="inherit" fill="none" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg>Bone China Dinnerware</button>
+          <button><svg class="relatedSearchIcon" width="24" height="24" viewBox="0 0 24 24" stroke="#2F3337" fill="#2F3337"><title>Search</title><path d="M22 22l-6.344-6.344M10 18a8 8 0 100-16 8 8 0 000 16z" stroke="inherit" fill="none" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg>Stoneware Dinnerware</button>
+          <button><svg class="relatedSearchIcon" width="24" height="24" viewBox="0 0 24 24" stroke="#2F3337" fill="#2F3337"><title>Search</title><path d="M22 22l-6.344-6.344M10 18a8 8 0 100-16 8 8 0 000 16z" stroke="inherit" fill="none" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg>Porcelain Dinnerware</button>
+          <button><svg class="relatedSearchIcon" width="24" height="24" viewBox="0 0 24 24" stroke="#2F3337" fill="#2F3337"><title>Search</title><path d="M22 22l-6.344-6.344M10 18a8 8 0 100-16 8 8 0 000 16z" stroke="inherit" fill="none" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg>White Dinnerware</button>
+          <button><svg class="relatedSearchIcon" width="24" height="24" viewBox="0 0 24 24" stroke="#2F3337" fill="#2F3337"><title>Search</title><path d="M22 22l-6.344-6.344M10 18a8 8 0 100-16 8 8 0 000 16z" stroke="inherit" fill="none" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg>Blue Dinnerware</button>
+        
+      </div>
+
+      
+    <!-- Swiper -->
+    <h2 id="head4">Related Reviews</h2>
+    <div style="margin-left:400px; margin-right: 18px;" class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div>
+                <img src="https://ak1.ostkcdn.com/images/products/is/images/direct/486586c95104f5cfddeedf3084d4e55d33b7bd03/Euro-Ceramica-White-Essential-16-Piece-Dinnerware-Set.jpg" alt="">
+            </div>
+            <div>
+                <h3> dinnerware</h3>
+                <img class="star_img" src="https://www.starpng.com/public/uploads/preview/5-star-rating-png-21573998074syeo5vib9a.png" alt="">
+                <p>loved this dinnerware looks perfect in my blue and white kitchen also bowls are a great soup size</p>
+            </div>
+
+        </div>
+        <div class="swiper-slide">
+            <div class="wing1">
+                <img src="https://ak1.ostkcdn.com/images/products/is/images/direct/288fb05f156a740a6dd5425f4962e400802bf9c8/vancasso-Bonbon-24-Piece-Dinnerware-Set-%28Service-for-6%29.jpg" alt="error">
+            </div>
+            <div>
+                
+                <h3>Dishes</h3>
+                <img class="star_img" src="https://www.starpng.com/public/uploads/preview/5-star-rating-png-21573998074syeo5vib9a.png" alt="">
+                <p>I love this dish set, I got red. Beautiful and love it is a 6 piece set perfect!!</p>
+            </div>
+            
+        </div>
+        <div class="swiper-slide">
+            <div class="wing">
+                <img src="https://ak1.ostkcdn.com/images/products/24147791/Dinnerset-16Pcs-Coupe-Marble-N-A-aacb507f-7e42-4122-bfa1-f6e811821bb0.jpg" alt="error">
+            </div>
+            <div>
+                <h3>16 pc dishware set</h3>
+                <img class="star_img" src="https://www.starpng.com/public/uploads/preview/5-star-rating-png-21573998074syeo5vib9a.png" alt="">
+                <p>  I absolutely love my new dish set ,it's beautiful and well packed. You all do an excellent job on packing</p>
+            </div>
+        </div>
+       
+        <div class="swiper-slide">
+            <div class="wing1">
+                <img src="https://ak1.ostkcdn.com/images/products/is/images/direct/9990e8716730e2080eb24c53632900d207303f99/MALACASA-Flora-Porcelain-Dinnerware-Set-%28Service-for-6%29.jpg" alt="error">
+            </div>
+            <div>
+                <h3>Beautiful dishware</h3>
+                <img class="star_img" src="https://www.starpng.com/public/uploads/preview/5-star-rating-png-21573998074syeo5vib9a.png" alt="">
+                <p>Beautiful dishes set Im glad I ordered it.well pacceged,no chips or other damage.I</p>
+            </div>
+        </div>
+        
+        <div class="swiper-slide">
+                <div class="wing1">
+                    <img src="https://ak1.ostkcdn.com/images/products/is/images/direct/f4df78fac292a714e76e9a961c1b01fc08f756cd/Vancasso-Navia-Distressed-Vintage-16-piece-Dinnerware-Set.jpg" alt="error">
+                </div>
+                <div>
+                    <h3>Dishware</h3>
+                    <img class="star_img" src="https://www.starpng.com/public/uploads/preview/5-star-rating-png-21573998074syeo5vib9a.png" alt="">
+                    <p>Beautiful dishes! Heavy and high quality!</p>
+                </div>
+            </div>
+
+        <div class="swiper-slide">
+            <div>
+                <img src="https://ak1.ostkcdn.com/images/products/is/images/direct/97615aefd0369db06730905a66619c35ad7d3d53/Euro-Ceramica-FreshCatch-12-Piece-Dinnerware-Set-%28Service-for-4%29.jpg" alt="error">
+            </div>
+            <div>
+                <h3>CORNFLOWERS DINNERWARE</h3>
+                <img class="star_img" src="https://www.starpng.com/public/uploads/preview/5-star-rating-png-21573998074syeo5vib9a.png" alt="">
+                <p>VERY PRETTY DISHES AND WELL MADE. VERY HAPPY TO SERVE MY MEAL</p>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="wing">
+                <img src="https://ak1.ostkcdn.com/images/products/is/images/direct/ffff0751ec65557083ae211f87bfa8112fdddd2e/Dinnerset-16PC-Coupe-Gold-Marble.jpg" alt="error">
+            </div>
+            <div>
+                <h3>Set of dishes</h3>
+                <img class="star_img" src="https://www.starpng.com/public/uploads/preview/5-star-rating-png-21573998074syeo5vib9a.png" alt="">
+                <p>We always get questioned when we have guests over for dinner. The plates are</p>
+            </div>
+        </div>
+         <div class="swiper-slide">
+            <div class="wing2">
+                <img src="https://ak1.ostkcdn.com/images/products/is/images/direct/80db610f83fc3167e812dec4d957f1788a52710c/Dinnerware-Set-12PCS-Stoneware-Utopia.jpg" alt="error">
+            </div>                       
+            <div>
+                <h3>Beautiful marbled dinnerware</h3>
+                <img class="star_img" src="https://www.starpng.com/public/uploads/preview/5-star-rating-png-21573998074syeo5vib9a.png" alt="">
+                <p>Beautiful, elegant, stylish, yet modern dinnerware that will class up your entertaining. My first thought</p>
+            </div>    
+        </div>
+        <div class="swiper-slide">
+            <div>
+                <img src="https://ak1.ostkcdn.com/images/products/is/images/direct/ea91902a483a7bd058596df05ff2118c9f2d1309/Sango-Denyer-16-Piece-Stoneware-Dinnerware-Set%2C-Amber.jpg" alt="error">
+            </div>
+            <div>
+                <h3>Great dinnerware set!</h3>
+                <img class="star_img" src="https://www.starpng.com/public/uploads/preview/5-star-rating-png-21573998074syeo5vib9a.png" alt="">
+                <p>My Husband and I are very happy with this purchase! The dinnerware is well made and</p>
+            </div>
+        </div>
+        
+    </div>
+      <div style="color:grey" class="swiper-button-next"></div>
+      <div style="color:grey" class="swiper-button-prev"></div>
+      <div  style="color:grey" class="swiper-pagination"></div>
+    </div>
+     <div id="emoji">
+      <h5 style="font-size: 20px; color:#2f3337">How would you rate your search experience?</h5>
+      <img style="width: 300px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO2X0bTb-zDLR1jfYrG0pqtzq6pHiuFx7RvK1gGYTUBXDNqH6PbSCptKG_rSQlJw8OWw&usqp=CAU" alt="">
+     </div>
+      <div class="twohead">
+        <h2>Dinnerware Buying Guides</h2>
+        <h3>Browse All Buying Guides ></h3>
+      </div>
+     <div id="lastbox1">
+      <div>
+        <img  src="https://ak1.ostkcdn.com/wp-content/uploads/2017/09/Dinnerware-Buying-Guide-hero.jpg" alt="">
+      </div>
+      <div style="margin-right:25px ; width: 510px;border-top: 4px solid #073bc9;">
+       <p>The dinnerware you eat off of is almost as important as the meal itself. How your dinnerware looks, how it's cared for, and how you'll use it all need to be considered before making a decision on what to buy. This guide will help you find the perfect dinnerware for your home dining experience. </p>
+        <p>Read More</p>
+      </div>
+      
+      <div>
+        <img src="https://edge.curalate.com/v1/img/DK7YNeBZKNqsOBvdN9pdZp3PLwwtIhDdz1o61YSF0OQ=/d/l" alt="">
+      </div>
+      <div style="width: 510px;border-top: 4px solid #073bc9;">
+        <p>From dinnerware to decor, there are several key elements you'll need to pull together a gorgeous holiday spred.</p>
+        <p>Read More</p>
+      </div>
+    </div>
       <hr>
       <footer>
         <div id="footer"></div>
@@ -170,3 +324,26 @@
 </body>
 </html>
 <script src="./dinnerware.js" type="module"></script>
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>

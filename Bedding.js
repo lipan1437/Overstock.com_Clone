@@ -1,20 +1,26 @@
-// console.log(kictchenArr);
+let navbarID = document.getElementById("navbar");
+import navbar_imp from "./components/navbar.js";
+navbarID.innerHTML = navbar_imp();
+
+let dataLS = [];
 let container = document.getElementById("container");
-let displayData = (kictchenArr) => {
-  kictchenArr.forEach(({ Image, title }) => {
+let displayData = (data) => {
+  data.forEach((ele) => {
     let imag = document.createElement("img");
-    imag.src = Image;
+    imag.src = ele.Image;
     let name = document.createElement("p");
-    name.innerText = title;
+    name.innerText = ele.title;
     let div = document.createElement("div");
     div.addEventListener("click", () => {
-      window.location.href = "#";
+      dataLS.push(ele);
+      localStorage.setItem("furniture", JSON.stringify(dataLS));
+      // window.location.href = "#";
     });
     div.append(imag, name);
     container.append(div);
   });
 };
-// displayData(kictchenArr);
+
 let data = [
   {
     image:

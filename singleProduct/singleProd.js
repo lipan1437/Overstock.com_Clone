@@ -1,3 +1,14 @@
+let navbar = document.getElementById("navbar");
+import navbar_imp from "../components/navbar.js";
+navbar.innerHTML = navbar_imp();
+
+let foot = document.getElementById("footer");
+import { footer, end } from "../components/footer.js";
+foot.innerHTML = footer();
+
+let end_div = document.getElementById("end");
+end_div.innerHTML = end();
+
 
 let kitenData = [
 

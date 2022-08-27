@@ -1,0 +1,74 @@
+/* signup CSS start from here */
+
+#container-signup {
+  text-align: center;
+  padding: 40px;
+  width: 28%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: auto;
+  margin-top: 5%;
+}
+#btn-2 :nth-child(1) {
+  padding: 8px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+#btn-2 :nth-child(2) {
+  background-color: transparent;
+  padding: 9px;
+  border: 1px solid lightgrey;
+  cursor: pointer;
+}
+#input-email p {
+  margin-left: 95px;
+  font-size: medium;
+  text-align: left;
+}
+#input-email input {
+  text-align: left;
+  padding: 8px 35px;
+  color: lightgray;
+  border: 1px solid lightgray;
+}
+#input-password p {
+  margin-left: 95px;
+  font-size: medium;
+  text-align: left;
+}
+#input-password input {
+  margin: auto;
+  text-align: left;
+  padding: 8px 35px;
+  color: lightgray;
+  border: 1px solid lightgray;
+  margin-bottom: 40px;
+}
+#input-checkbox {
+  text-align: left;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 40px;
+  background-color: lightgray;
+  padding: 5px;
+}
+#container-signup > button {
+  margin: auto;
+  text-align: left;
+  cursor: pointer;
+  padding: 8px 72px;
+  background-color: black;
+  color: white;
+}
+/* #container-signup > button + p {
+  margin-right: 80px;
+} */
+p {
+  color: gray;
+}
+#tearms-condition {
+  width: 85%;
+  margin: auto;
+  margin-top: 30px;
+}
+/* signup CSS end  here */

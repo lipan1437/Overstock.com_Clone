@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Account</title>
+    <link rel="stylesheet" href="account.css" />
+    <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="./footer.css">
+  </head>
+  <body>
+    <div id="navbar"></div>
+    <div id="container">
+      <div id="signup-box">
+        <h2 class="heading-account">Create Account</h2>
+
+        <p>Email Address*</p>
+        <input type="text" id="Uemail" placeholder="Email" />
+        <p>Create Password*</p>
+        <input type="password" id="Upassword" placeholder="Password" />
+        <p>Confirm Password*</p>
+        <input type="password" id="Uc_password" placeholder="Confirm password" />
+        <br />
+        <div id="Check_box">
+          <input type="checkbox" id="checkbox" />
+          <label for="">
+            Sign up today for exclusive offers from Overstock.com delivered
+            right to your inbox**</label
+          >
+        </div>
+        <button id="creat" onclick="Setdata()">Creat Account</button>
+        <div>
+          <hr />
+        </div>
+        <button id="continue">Continue as Guest</button>
+        <div id="terms">
+          <p>
+            By creating an account or continuing as a Guest, you agree to our
+            <a href="#">Terms & Conditions</a> and
+            <a href="">Privacy Policy</a>.
+          </p>
+          <br />
+          <p>
+            <a href="">Terms & Conditions</a> | <a href="">Privacy Policy</a>.
+            <br />
+            **You can unsubscribe at any time
+          </p>
+        </div>
+      </div>
+      <div id="signin-box">
+        <h2 class="heading-account">Sign In</h2>
+        <p>Email Address*</p>
+        <input type="text" id="Iemail" placeholder="Email" />
+        <p>Password*</p>
+        <input type="password" id="Ipassword" placeholder="Password" />
+        <br />
+        <button id="signin-btn">Sign In</button>
+        <p><a href="">Forgot your password</a></p>
+      </div>
+    </div>
+    <footer>
+      <div id="footer"></div>
+      <div id="end"></div>
+    </footer>
+  </body>
+</html>
+<script src="account.js" type="module"></script>

@@ -1,0 +1,102 @@
+#container {
+  display: flex;
+  margin: auto;
+  width: 60%;
+  gap: 25px;
+  color: #333a40;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+#signup-box {
+  width: 45%;
+  height: auto;
+  padding: 20px;
+  margin: 2% 0 0 10%;
+}
+.heading-account {
+  margin-bottom: 30px;
+}
+#Uemail {
+  padding: 10px;
+  margin: 10px 0 10px 0;
+  width: 94%;
+  height: 20px;
+}
+#Upassword {
+  padding: 10px;
+  margin: 10px 0 10px 0;
+  width: 94%;
+  height: 20px;
+}
+#Uc_password {
+  padding: 10px;
+  margin: 10px 0 20px 0;
+  width: 94%;
+  height: 20px;
+}
+#Check_box {
+  margin-bottom: 20px;
+  padding: 6px;
+  border: 1px solid lightgray;
+  background-color: #f9fafc;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+#creat {
+  border: 1px solid gray;
+  color: white;
+  background-color: #0272a2;
+  padding: 10px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+}
+#continue {
+  border: 1px solid lightgray;
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+#Check_box {
+  background-color: lightgray;
+  border: 1px solid grey;
+}
+#signin-box {
+  width: 45%;
+  height: auto;
+  padding: 20px;
+  margin-top: 20px;
+  color: #333a40;
+  /* line-height: 20px; */
+}
+#signin-box input {
+  padding: 10px;
+  width: 80%;
+  margin: 10px 0px;
+  height: 20px;
+}
+#signin-btn {
+  width: 85%;
+  margin: auto;
+  padding: 10px;
+  background-color: #27865f;
+  color: white;
+  border: 1px solid #27865f;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+#signin-btn + p {
+  margin-top: 20px;
+  text-align: center;
+}
+#terms {
+  text-align: center;
+}

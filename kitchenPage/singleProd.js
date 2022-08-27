@@ -1,9 +1,9 @@
 let navbar = document.getElementById("navbar");
-import navbar_imp from "./components/navbar.js";
+import navbar_imp from "../components/navbar.js";
 navbar.innerHTML = navbar_imp();
 
 let foot = document.getElementById("footer");
-import { footer, end } from "./components/footer.js";
+import { footer, end } from "../components/footer.js";
 foot.innerHTML = footer();
 
 let end_div = document.getElementById("end");
@@ -13,7 +13,8 @@ end_div.innerHTML = end();
 let lsData = JSON.parse(localStorage.getItem('furniture')) || []
 let main = document.getElementById('show')
 let price = document.getElementById('price')
-let show = (data) => {    
+let show = (data) => { 
+  lsData.innerHTML=null ;   
     data.forEach((el)=>{
         let div = document.createElement('div')
         let img  = document.createElement('img')

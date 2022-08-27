@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- Demo styles -->
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 94%;
+        height: 70%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex; */
+        /* display: flex; */
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        /* display: block; */
+        width: 100%;
+        height: 100%;
+        /* object-fit: cover; */
+      }
+      .img_slide{
+        /* margin-top: 10px; */
+        height: 50%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="img_slide">
+                <img src="https://ak1.ostkcdn.com/img/mxc/08222022_V2_LBD_editorial_v3.svg?imwidth=1920" alt="">
+            </div><br>
+            <div>
+                <h2>Deep Discount</h2>
+            <p>Don't miss these huge savings, up to 40% off!*</p>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="img_slide">
+                <img src="https://ak1.ostkcdn.com/img/mxc/08082022-Frame2-OutdoorDining.jpg?imwidth=1920" alt="">
+            </div>
+            <div>
+                <h2>Outdoor Seating Sets</h2>
+                <p>Soaking up the sun in style has never been more affordable.</p>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="img_slide">
+            <img src="https://ak1.ostkcdn.com/img/mxc/08082022-Frame3-BohoMachineWashable.jpg?imwidth=1920" alt="">
+        </div>
+        <div>
+            <h2>Machine Washable Rugs</h2>
+            <p>Great deals on rugs that are as easy to clean as they are to love.</p>
+        </div></div>
+        <div class="swiper-slide">
+            <div class="img_slide">
+                <img src="https://ak1.ostkcdn.com/img/mxc/08082022-Frame4-Rustic.jpg?imwidth=1920" alt="">
+            </div>
+            <div>
+                <h2>Rustic Nightstands</h2>
+                <p>Save on bedside tables that add log-cabin chic to any bedroom.</p>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="img_slide">
+            <img src="https://ak1.ostkcdn.com/img/mxc/08082022-Frame5-HammocksSwings.jpg?imwidth=1920" alt="">
+        </div>
+        <div>
+            <h2>Hammocks & Swings</h2>
+            <p>Kick back and sway your way to relaxation at the perfect price.</p>
+        </div></div>
+        <div class="swiper-slide">
+            <div class="img_slide">
+            <img src="https://ak1.ostkcdn.com/img/mxc/08082022-Frame6-OutdoorBenches.jpg?imwidth=1920" alt="">
+        </div>
+        <div>
+            <h2>Outdoor Benches</h2>
+            <p>With free shipping, saving on backyard benches is a walk in the park.</p>
+        </div>
+    </div>
+        <div class="swiper-slide">
+            <div class="img_slide">
+            <img src="https://ak1.ostkcdn.com/img/mxc/08082022-Frame7-FloralChairs.jpg?imwidth=1920" alt="">
+        </div>
+        <div>
+            <h2>Floral Chairs</h2>
+            <p>Bring the outdoors in with fresh deals on beautiful floral seating.</p>
+        </div>
+    </div>
+        <div class="swiper-slide">
+            <div class="img_slide">
+            <img src="https://ak1.ostkcdn.com/img/mxc/08082022-Frame8-WoodPlatformBeds.jpg?imwidth=1920" alt="">
+        </div>
+        <div>
+            <h2>Platform Bed Wood Beds</h2>
+            <p>Treat your bedroom to high style with a low profile.</p>
+        </div>
+    </div>
+        <div class="swiper-slide">
+            <div class="img_slide">
+            <img src="https://ak1.ostkcdn.com/img/mxc/030822-SBS-MidCenMod.jpg?imwidth=1920" alt="">
+        </div>
+        <div>
+            <h2>Mid-Century Modern</h2>
+            <p>Save on bedside tables that add log-cabin chic to any bedroom.</p>
+        </div>
+    </div>
+      </div>
+      <div style="color:grey;" class="swiper-button-next"></div>
+      <div style="color:grey;" class="swiper-button-prev"></div>
+      <div style="color:grey;" class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 4,
+        spaceBetween: 30,
+        slidesPerGroup: 1,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>

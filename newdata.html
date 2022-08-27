@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container"></div>
+  </body>
+</html>
+<script>
+  let data = [
+    {
+      image:
+        "https://ak1.ostkcdn.com/images/products/is/images/direct/54c18d8c426f02b412e57897bc2771e4624d6cde/Chunky-Bunny---Coma-Inducer%C2%AE-Oversized-Comforter---Nightfall-Navy.jpg?imwidth=480",
+      name: "Chunky Bunny - Coma Inducer® Oversized Comforter - Nightfall Navy",
+      price: "19097",
+    },
+    {
+      image:
+        "https://ak1.ostkcdn.com/images/products/is/images/direct/be27d52e4e264c129faf98869e1b6d826b4c0d8d/Socially-Distant---Coma-Inducer%C2%AE-Oversized-Plush-Comforter-Set---Cloud-Gray.jpg?imwidth=480",
+      name: "Socially Distant - Coma Inducer® Oversized Plush Comforter Set - Cloud Gray",
+      price: "12789",
+    },
+    {
+      image:
+        "https://ak1.ostkcdn.com/images/products/is/images/direct/7896ee34d06891d87b4b124e4c0cdd6fcc76abc9/Winter-Thick---Coma-Inducer%C2%AE-Oversized-Comforter---Coastal-Taupe.jpg?imwidth=480",
+      name: "Winter Thick - Coma Inducer® Oversized Comforter - Coastal Taupe",
+      price: "11058",
+    },
+    {
+      image:
+        "https://ak1.ostkcdn.com/images/products/13788314/V19.69-Italia-Navy-10-Piece-Comforter-Set-e65c43ce-4e82-4478-b7a6-5bc9c00f82cf_1000.jpg?imwidth=480",
+      name: "Style 212 Dolce Navy 10-Piece Comforter Set",
+      price: "9869",
+    },
+    {
+      image:
+        "https://ak1.ostkcdn.com/images/products/is/images/direct/bff15829139ede2ab6390419b0ea838268320a76/Becky-Cameron-Premium-Down-Alternative-Forget-Me-Not-Reversible-Comforter-Set.jpg?imwidth=480",
+      name: "Becky Cameron Premium Forget Me Not Reversible Comforter Set",
+      price: "4652",
+    },
+    {
+      image:
+        "https://ak1.ostkcdn.com/images/products/20010171/Lush-Decor-Ravello-Pintuck-5-piece-Comforter-Set-c0432840-d965-4ea4-978e-9472b933c7a7_1000.jpg?imwidth=480",
+      name: "Lush Decor Ravello Pintuck 5-piece Comforter Set",
+      price: "8074",
+    },
+    {
+      image:
+        "https://ak1.ostkcdn.com/images/products/is/images/direct/2dfbcb25666a33094be1aef1d5f3adb7a79111ab/Laura-Ashley-Nora-7-piece-Comforter-Set.jpg?imwidth=480",
+      name: "Laura Ashley Nora 7-piece Comforter Set",
+      price: "12769",
+    },
+    {
+      image:
+        "https://ak1.ostkcdn.com/images/products/is/images/direct/45349d9cef6621ee381f045e7af24ecb048f0bd3/G.H.-Bass-Cable-Knit-Pinsonic-Sherpa-Comforter-Set.jpg?imwidth=480",
+      name: "G.H. Bass Cable Knit Pinsonic Sherpa Comforter Set",
+      price: "8814",
+    },
+    {
+      image:
+        "https://ak1.ostkcdn.com/images/products/is/images/direct/796373e0f03dda3f292cfb16f41849a388a8460b/Nanshing-Kath-7-piece-Comforter-Set.jpg?imwidth=480",
+      name: "Grand Avenue Daniella 7-Piece Modern Geometric Comforter Set",
+      price: "8496",
+    },
+    {
+      image:
+        "https://ak1.ostkcdn.com/images/products/is/images/direct/962048bd8d90764448d35d353c1ad01fdd74c0c1/Coma-Inducer-Oversized-Comforter---Me-Sooo-Comfy---Nightfall-Navy.jpg?imwidth=480",
+      name: "Grand Avenue Daniella 7-Piece Modern Geometric Comforter Set",
+      price: "8496",
+    },
+    {
+      image:
+        "https://ak1.ostkcdn.com/images/products/is/images/direct/f70c0f82cd804285665059e7ea16b58763d89d39/Chommie-Weighted-Coma-Inducer%C2%AE-Comforter---Cuz-I%27m-Cozy---Blackened-Navy-Ink.jpg?imwidth=480",
+      name: "Chommie Weighted Coma Inducer® Comforter - Cuz I'm Cozy - Blackened Navy Ink",
+      price: "15506",
+    },
+    {
+      image:
+        "https://ak1.ostkcdn.com/images/products/is/images/direct/54c18d8c426f02b412e57897bc2771e4624d6cde/Chunky-Bunny---Coma-Inducer%C2%AE-Oversized-Comforter---Nightfall-Navy.jpg?imwidth=480",
+      name: "Chunky Bunny - Coma Inducer® Oversized Comforter - Nightfall Navy",
+      price: "19097",
+    },
+    {
+      image:
+        "https://ak1.ostkcdn.com/images/products/is/images/direct/be27d52e4e264c129faf98869e1b6d826b4c0d8d/Socially-Distant---Coma-Inducer%C2%AE-Oversized-Plush-Comforter-Set---Cloud-Gray.jpg?imwidth=480",
+      name: "Socially Distant - Coma Inducer® Oversized Plush Comforter Set - Cloud Gray",
+      price: "12789",
+    },
+    {
+      image:
+        "https://ak1.ostkcdn.com/images/products/is/images/direct/7896ee34d06891d87b4b124e4c0cdd6fcc76abc9/Winter-Thick---Coma-Inducer%C2%AE-Oversized-Comforter---Coastal-Taupe.jpg?imwidth=480",
+      name: "Winter Thick - Coma Inducer® Oversized Comforter - Coastal Taupe",
+      price: "11058",
+    },
+    {
+      image:
+        "https://ak1.ostkcdn.com/images/products/13788314/V19.69-Italia-Navy-10-Piece-Comforter-Set-e65c43ce-4e82-4478-b7a6-5bc9c00f82cf_1000.jpg?imwidth=480",
+      name: "Style 212 Dolce Navy 10-Piece Comforter Set",
+      price: "9869",
+    },
+    {
+      image:
+        "https://ak1.ostkcdn.com/images/products/is/images/direct/bff15829139ede2ab6390419b0ea838268320a76/Becky-Cameron-Premium-Down-Alternative-Forget-Me-Not-Reversible-Comforter-Set.jpg?imwidth=480",
+      name: "Becky Cameron Premium Forget Me Not Reversible Comforter Set",
+      price: "4652",
+    },
+    {
+      image:
+        "https://ak1.ostkcdn.com/images/products/20010171/Lush-Decor-Ravello-Pintuck-5-piece-Comforter-Set-c0432840-d965-4ea4-978e-9472b933c7a7_1000.jpg?imwidth=480",
+      name: "Lush Decor Ravello Pintuck 5-piece Comforter Set",
+      price: "8074",
+    },
+    {
+      image:
+        "https://ak1.ostkcdn.com/images/products/is/images/direct/2dfbcb25666a33094be1aef1d5f3adb7a79111ab/Laura-Ashley-Nora-7-piece-Comforter-Set.jpg?imwidth=480",
+      name: "Laura Ashley Nora 7-piece Comforter Set",
+      price: "12769",
+    },
+    {
+      image:
+        "https://ak1.ostkcdn.com/images/products/is/images/direct/45349d9cef6621ee381f045e7af24ecb048f0bd3/G.H.-Bass-Cable-Knit-Pinsonic-Sherpa-Comforter-Set.jpg?imwidth=480",
+      name: "G.H. Bass Cable Knit Pinsonic Sherpa Comforter Set",
+      price: "8814",
+    },
+    {
+      image:
+        "https://ak1.ostkcdn.com/images/products/is/images/direct/796373e0f03dda3f292cfb16f41849a388a8460b/Nanshing-Kath-7-piece-Comforter-Set.jpg?imwidth=480",
+      name: "Grand Avenue Daniella 7-Piece Modern Geometric Comforter Set",
+      price: "8496",
+    },
+    {
+      image:
+        "https://ak1.ostkcdn.com/images/products/is/images/direct/962048bd8d90764448d35d353c1ad01fdd74c0c1/Coma-Inducer-Oversized-Comforter---Me-Sooo-Comfy---Nightfall-Navy.jpg?imwidth=480",
+      name: "Grand Avenue Daniella 7-Piece Modern Geometric Comforter Set",
+      price: "8496",
+    },
+    {
+      image:
+        "https://ak1.ostkcdn.com/images/products/is/images/direct/f70c0f82cd804285665059e7ea16b58763d89d39/Chommie-Weighted-Coma-Inducer%C2%AE-Comforter---Cuz-I%27m-Cozy---Blackened-Navy-Ink.jpg?imwidth=480",
+      name: "Chommie Weighted Coma Inducer® Comforter - Cuz I'm Cozy - Blackened Navy Ink",
+      price: "15506",
+    },
+  ];
+</script>

@@ -1,149 +1,112 @@
-let navbar_id = document.getElementById("navbar");
-  import navbar_imp from "./components/navbar.js"
-    navbar_id.innerHTML = navbar_imp();
+let navbarID = document.getElementById("navbar");
+import navbar_imp from "./components/navbar.js";
+navbarID.innerHTML = navbar_imp();
 
-import { footer, end } from "./components/footer.js";
+let product_data = [
+  {
+    image:
+      "https://ak1.ostkcdn.com/img/mxc/05122022_BEDDING_219x219_shop_more01_beddingsets.jpg",
+    title: "Bedding Set",
+  },
+  {
+    image:
+      "https://ak1.ostkcdn.com/img/mxc/05122022_BEDDING_219x219_shop_more02_comfortersandsets.jpg",
+    title: "Comforters and Sets ",
+  },
+  {
+    image:
+      "https://ak1.ostkcdn.com/img/mxc/05122022_BEDDING_219x219_shop_more03_quiltsandbedspreads.jpg",
+    title: "Quilts and Bedspreads",
+  },
+  {
+    image:
+      "https://ak1.ostkcdn.com/img/mxc/05122022_BEDDING_219x219_shop_more04_bedsheetsandpillowcases.jpg",
+    title: "Bed Sheets and Pillowcases",
+  },
+  {
+    image:
+      "https://ak1.ostkcdn.com/img/mxc/05122022_BEDDING_219x219_shop_more05mattresspadsandtoppers.jpg",
+    title: "Matress Pads and Toppers",
+  },
+  {
+    image:
+      "https://ak1.ostkcdn.com/img/mxc/05122022_BEDDING_219x219_shop_more06_bedprotectors.jpg",
+    title: "Bed Protectors",
+  },
+  {
+    image:
+      "https://ak1.ostkcdn.com/img/mxc/05122022_BEDDING_219x219_shop_more07_blankets.jpg",
+    title: "Blankets",
+  },
+  {
+    image:
+      "https://ak1.ostkcdn.com/img/mxc/05122022_BEDDING_219x219_shop_more08_duvetcoversandsets.jpg",
+    title: "Duvet Covers and Sets",
+  },
+  {
+    image:
+      "https://ak1.ostkcdn.com/img/mxc/05122022_BEDDING_219x219_shop_more09_downcomforters.jpg",
+    title: "Down Comforters and Dovet Inserts",
+  },
+  {
+    image:
+      "https://ak1.ostkcdn.com/img/mxc/05122022_BEDDING_219x219_shop_more10_bedinabag.jpg",
+    title: "Bed-in-a-Bag",
+  },
+  {
+    image:
+      "https://ak1.ostkcdn.com/img/mxc/05122022_BEDDING_219x219_shop_more11_bedpillows.jpg",
+    title: "Bed Pillows",
+  },
+  {
+    image:
+      "https://ak1.ostkcdn.com/img/mxc/05122022_BEDDING_219x219_shop_more12_pillowshams.jpg",
+    title: "Pillows Shams",
+  },
+  {
+    image:
+      "https://ak1.ostkcdn.com/img/mxc/05122022_BEDDING_219x219_shop_more13_bedskirts.jpg",
+    title: "Bed Skirts",
+  },
+  {
+    image:
+      "https://ak1.ostkcdn.com/img/mxc/05122022_BEDDING_219x219_shop_more14_kidsbedding.jpg",
+    title: "Kids Bedding",
+  },
+  {
+    image:
+      "https://ak1.ostkcdn.com/img/mxc/05122022_BEDDING_219x219_shop_more15_daybedcoversets.jpg",
+    title: "Daybed Cover Sets",
+  },
 
-  document.querySelector("#footer").innerHTML = footer();
-  document.querySelector("#end").innerHTML = end();
-  /*--import ends here-----*/
-
-let kictchenArr = [
   {
-    Image:
-      "https://ak1.ostkcdn.com/img/mxc/12202021_WINTER2022_KITCHEN_PopCat_1_SmallAppliances.jpg",
-    title: "Small Appliances",
+    image:
+      "https://ak1.ostkcdn.com/img/mxc/05122022_BEDDING_219x219_shop_more16_newarrivals.jpg",
+    title: "Shop New Arrivals",
   },
   {
-    Image:
-      "https://ak1.ostkcdn.com/img/mxc/12202021_WINTER2022_KITCHEN_PopCat_2_Dinnerware.jpg",
-    title: "Dinnerware",
-  },
-  {
-    Image:
-      "https://ak1.ostkcdn.com/img/mxc/03242022_SPRING2022_KITCHEN_PopCat_3.jpg",
-    title: "Cookware",
-  },
-  {
-    Image:
-      "https://ak1.ostkcdn.com/img/mxc/10122021_KITCHEN_PopCat_3_Mixers.jpg",
-    title: " Mixers",
-  },
-  {
-    Image:
-      "https://ak1.ostkcdn.com/img/mxc/12202021_WINTER2022_KITCHEN_PopCat_4_CookingEssentials.jpg",
-    title: "Cooking Essentials",
-  },
-  {
-    Image:
-      "https://ak1.ostkcdn.com/img/mxc/12202021_WINTER2022_KITCHEN_PopCat_5_Serveware.jpg",
-    title: "Serveware",
-  },
-  {
-    Image:
-      "https://ak1.ostkcdn.com/img/mxc/12202021_WINTER2022_KITCHEN_PopCat_6_Bakeware.jpg",
-    title: "Bakeware",
-  },
-  {
-    Image:
-      "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-kitchendining-PopCat_7.jpg",
-    title: "Ranges & Ovens",
-  },
-
-  {
-    Image:
-      "https://ak1.ostkcdn.com/img/mxc/12202021_WINTER2022_KITCHEN_PopCat_7_TableLinensandDecor.jpg",
-    title: "Table Linens & Decor",
-  },
-  {
-    Image:
-      "	https://ak1.ostkcdn.com/img/mxc/09062021_FALL2021_Kitchen_PopCat_7.jpg",
-    title: "Flatware",
-  },
-  {
-    Image:
-      "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-kitchendining-PopCat_8.jpg",
-    title: "Major Appliances",
-  },
-  {
-    Image:
-      "https://ak1.ostkcdn.com/img/mxc/12202021_WINTER2022_KITCHEN_PopCat_8_GlassesandBarware.jpg",
-    title: "Glasses & Barware",
+    image: "https://ak1.ostkcdn.com/img/mxc/071718_sale_square.svg",
+    title: "Shop All Bedding On Sales ",
   },
 ];
-let kictchenArr2 = [
-  {
-    image:
-      "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-kitchendining-175x175_otherPopular7.jpg",
-    title: "Counter Accessories",
-  },
-  {
-    image:
-      "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-kitchendining-175x175_otherPopular8.jpg",
-    title: "Storage Canisters",
-  },
-  {
-    image:
-      "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-kitchendining-175x175_otherPopular9.jpg",
-    title: "Dish Racks",
-  },
-  {
-    image:
-      "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-kitchendining-175x175_otherPopular10.jpg",
-    title: "Trash Cans",
-  },
-  {
-    image:
-      "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-kitchendining-175x175_otherPopular11.jpg",
-    title: "Wine Racks",
-  },
-  {
-    image:
-      "	https://ak1.ostkcdn.com/img/mxc/03232020-gnp-kitchendining-175x175_otherPopular12.jpg",
-    title: "Pot Racks",
-  },
-  {
-    image:
-      "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-kitchendining-175x175_otherPopular13.jpg",
-    title: "Islands",
-  },
-  {
-    image:
-      "	https://ak1.ostkcdn.com/img/mxc/03232020-gnp-kitchendining-175x175_otherPopular14.jpg",
-    title: "Cabinets",
-  },
-  {
-    image:
-      "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-kitchendining-175x175_otherPopular15.jpg",
-    title: "Butcher Blocks",
-  },
-  {
-    image: "",
-    title: "",
-  },
-  {
-    image: "",
-    title: "",
-  },
-  {
-    image: "",
-    title: "",
-  },
-];
-console.log(kictchenArr);
-let container = document.getElementById("container");
-let displayData = (kictchenArr) => {
-  kictchenArr.forEach(({ Image, title }) => {
-    let imag = document.createElement("img");
-    imag.src = Image;
-    let name = document.createElement("p");
-    name.innerText = title;
+
+let dataLS = [];
+let displayData = (product_data) => {
+  let container = document.getElementById("grid-container");
+  product_data.forEach((ele) => {
     let div = document.createElement("div");
-    div.addEventListener("click", () => {
-      window.location.href = "#";
-    });
+    // div.addEventListener("click", () => {
+    //   dataLS.push(ele);
+    //   localStorage.setItem("furniture", JSON.stringify(dataLS));
+    //   // window.location.href = "#";
+    // });
+    let imag = document.createElement("img");
+    imag.src = ele.image;
+    let name = document.createElement("p");
+    name.innerText = ele.title;
+
     div.append(imag, name);
     container.append(div);
   });
 };
-displayData(kictchenArr);
+displayData(product_data);

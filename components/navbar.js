@@ -432,7 +432,7 @@ let navbar_imp =()=>{
     </div>
     <!-- hom improv ends here -->
     <div id="kitchen">
-        <a href="../kitchen/kitchen.html">Kitchen</a>
+        <a href="./kitchen.html">Kitchen</a>
         <div id="subMenu">
             <ul>
                 <div class="categories">

@@ -19,7 +19,7 @@ function signupFunc() {
     Check: document.getElementById("Uc_password").value,
   };
 
-  if (signupObj.Email.length > 0 && signupObj.Password.length > 0) {
+  if (signupObj.Email.length > 5 && signupObj.Password.length > 5) {
     alert("Signup Sucessful");
   } else if (signupObj.Password.length < 5) {
     alert("Enter atlest 6 char strong password");
@@ -28,6 +28,7 @@ function signupFunc() {
   }
   signUpLS.push(signupObj);
   localStorage.setItem("signupData", JSON.stringify(signUpLS));
+  window.location.reload()
 }
 
 // Signinpart start here

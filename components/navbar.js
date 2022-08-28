@@ -29,11 +29,11 @@ let navbar_imp =()=>{
                 <label for="">Account</label>
                 <div id="signin">
                     <ul>
-                        <h2><a href="#">Sign In ></a></h2>
+                        <h2><a href="./account.html">Sign In ></a></h2>
                         <li>View ypur account and</li>
                         <li>check your order status</li>
                         <hr>
-                        <h2><a href="#">Create an Account ></a></h2>
+                        <h2><a href="./account.html">Create an Account ></a></h2>
                         <li>Track orders save items </li>
                         <li>to lists and more!</li>
                         <hr>
@@ -288,7 +288,7 @@ let navbar_imp =()=>{
     </div>
     <!-- decor ends here -->
     <div id="bedding">
-        <a href="#">Bedding</a>
+        <a href="./Bedding.html">Bedding</a>
         <div id="subMenu">
             <ul>
                 <div class="categories">

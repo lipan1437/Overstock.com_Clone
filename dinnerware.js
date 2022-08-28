@@ -481,3 +481,21 @@ let displayData1 = (data) => {
     });
 }
 displayData1(dinnerWareArr1);
+
+function sortingP(ele) {
+    // console.log(ele);
+    // let filter_data = ele.price;
+    let filter = document.getElementById("filter-product").value;
+    if (filter === "LH") {
+      ele.sort(function (a, b) {
+        return a.price - b.price; //accending order
+      });
+      displayData(ele);
+    } else if (filter === "HL") {
+      ele.sort(function (a, b) {
+        return b.price - a.price; //accending order
+      });
+      displayData(ele);
+    }
+  }
+  

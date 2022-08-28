@@ -235,6 +235,7 @@ body {
     font-size: 17px;
     display: flex;
     justify-content: space-evenly;
+    gap:45px;
     padding-top: 2px;
     padding-bottom: 2px;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;

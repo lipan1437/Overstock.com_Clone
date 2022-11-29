@@ -1,5 +1,5 @@
 #OverStock.com/Clone
-https://exquisite-pegasus-73d402.netlify.app/
+https://capable-queijadas-6a7298.netlify.app/
 
 <h3>Landing Page</h3>
 
